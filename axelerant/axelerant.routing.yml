@@ -1,0 +1,7 @@
+axelerant_contentaccess:
+  path: '/page_json/{siteapikey}/{nid}'
+  defaults:
+    _controller: 'Drupal\axelerant\Controller\axelerantController::contentaccess'
+    _title: 'Content type access page'
+  requirements:
+    _permission: 'access content'
